@@ -5,11 +5,13 @@ export function Header() {
   return (
     <header className="flex items-center justify-between px-4 py-3">
       <div className="flex items-center gap-2">
-        <ChatGPTLogo className="size-7" />
-        <button className="flex items-center gap-1 text-lg font-medium text-foreground hover:opacity-80">
+        {/* <ChatGPTLogo className="size-7" /> */}
+       
+        {/* <button className="flex items-center gap-1 text-lg font-medium text-foreground hover:opacity-80">
           ChatGPT
           <ChevronDown className="size-4 text-muted-foreground" />
-        </button>
+        </button> */}
+        <h2 className="text-lg font-semibold text-foreground">Abdellhay</h2>
       </div>
 
       <div className="flex items-center gap-2">

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Offline</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="manifest" href="/manifest.json" />
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto
+        }
+
+        h1 {
+            margin: 0 0 12px
+        }
+
+        p {
+            margin: 0 0 18px;
+            color: #666
+        }
+
+        a {
+            color: #0b5fff;
+            text-decoration: none
+        }
+    </style>
+</head>
+
+<body>
+    <img src="/icons/icon-192.png" alt="app icon" width="96" height="96" />
+    <h1>You are offline</h1>
+    <p>This app works offline. Reconnect to load remote content.</p>
+    <a href="/">Open cached home</a>
+</body>
+
+</html>
